@@ -1,0 +1,53 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    margin-bottom: 20px;
+
+    .line{
+        width: 90%;
+        height: 5px;
+        color: grey;
+        margin-left: 5%;
+        padding-bottom: 100px;
+    }
+
+    .left{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        left: 80px;
+
+        svg{
+            width: 35px;
+            height: 35px;
+            opacity: 0.5;
+            margin-right: 10px;
+        }
+
+        p{
+            color: grey;
+            font-size: 14px;
+        }
+    }
+
+
+    .right{
+        
+        position: absolute;
+        margin-left: 30%;
+
+        a{
+            margin-right: 40px;
+            color: grey;
+
+            &:hover{
+                transition: .5s;
+                color: black;
+                text-decoration: underline;
+            }
+        }
+    }
+}
